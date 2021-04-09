@@ -1,0 +1,50 @@
+@import url(../Header/HeaderBarStyle.css);
+main {
+    min-height: calc(100vh - 2.656rem);
+    display: grid;
+    place-items: center;
+    background-color: salmon;
+    font-family: "Roboto", sans-serif;
+}
+
+main .container .color-container,
+main .container .color-container h3 {
+    background-color: #222222;
+    color: white;
+}
+
+main .container .color-container {
+    padding: 15px;
+    font-size: 35px !important;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container .color-container .info-container span {
+    color: #00a8ea;
+}
+
+main .container button {
+    margin-top: 50px;
+    margin-left: 13em;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border: #222222 solid 2px;
+    height: 2.4em;
+    width: 7.5em;
+    color: #222222;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+main .container button:hover {
+    background-color: #222222;
+    transition: all 0.3s linear;
+    color: #ffffff;
+}

@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center !important;
+    height: 3rem;
+    background-color: #ffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.nav-bar .nav-feature,
+.nav-bar .nav-feature .feature-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-bar .nav-feature .feature-container {
+    padding-left: 350px;
+}
+
+.nav-bar .nav-feature {
+    margin-left: 30x;
+}
+
+.nav-bar .nav-feature a {
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: 2px;
+    font-weight: 100 !important;
+    cursor: pointer;
+}
+
+.nav-bar .nav-feature a:hover {
+    color: #00a8ea !important;
+}
+
+.nav-bar .nav-feature .AppName {
+    left: 0;
+}
+
+.nav-bar .nav-feature .AppName {
+    color: #00a8ea;
+    letter-spacing: 5px;
+    font-weight: 100 !important;
+    cursor: pointer;
+}

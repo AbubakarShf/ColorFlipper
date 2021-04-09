@@ -1,0 +1,28 @@
+footer {
+    display: flex;
+    float: right;
+    margin-right: 15px;
+    align-items: center;
+}
+
+footer .credit {
+    border: #222222 solid 2px;
+    background-color: transparent;
+    margin-top: -90px;
+    padding: 5px;
+    padding-left: 10px !important;
+    width: 15em;
+    border-radius: 5px;
+}
+
+footer .credit a {
+    outline: none;
+    color: #222222;
+    text-decoration: none;
+}
+
+footer .credit:hover {
+    background-color: #222222;
+    color: #ffffff;
+    outline: none;
+}
